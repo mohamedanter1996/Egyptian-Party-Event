@@ -1,0 +1,261 @@
+
+:root{
+    --main-bg-color:rgba(214, 46, 51 , 0.6);
+    --main-nav-bg-color:RGB(17, 17, 17);
+    --main-nav-color:RGBA(214, 46, 51, 0.4);
+}
+
+header{
+    background-image: url("../imgs/events-heavenly-header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header .header-content .nav-opener{
+    position: relative;
+   margin-left: 40px;
+   font-size:30px;
+   line-height:45px;
+   cursor: pointer;
+}
+
+header .header-content .nav-opener span{
+    padding-left: 10px;
+}
+
+header .header-content .nav-opener::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    width: 30px;
+    height:30px;
+    top:25%;
+    border-bottom: solid white 4px;
+    border-top: solid white 4px;
+}
+
+header .header-content .nav-opener::after{
+
+    content: "";
+    position: absolute;
+    left: -30px;
+    width: 30px;
+    height:30px;
+    top:-5%;
+    border-bottom: solid white 4px; 
+}
+
+.bg-Mahogany{
+    background-color:var(--main-bg-color) ;
+}
+
+.bg-nearly-Black{
+    background-color: var(--main-nav-bg-color);
+}
+
+nav{
+    left: -236.413px;
+}
+
+nav .nav-links a{
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+    font-size:25px;
+    line-height:37.5px;
+    padding:20px 8px 20px 32px;
+    font-weight:400;
+    transition: all 0.5s;
+}
+
+nav .nav-links a:hover{
+    color: var(--main-nav-color);
+}
+ 
+
+.duration{
+    padding: 10% 25%;
+}
+
+.duration .duration-contact .singer h3{
+    background-color: var(--main-bg-color);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+
+.duration .duration-contact .singer .singer-data{
+    background-color: #CCCCCC;
+    display: none;
+}
+
+.duration .duration-contact .singer .singer-data .btn-danger{
+    background-color: var(--main-bg-color);
+   border: none;
+   transition: all 0.5s;
+}
+
+.duration .duration-contact .singer .singer-data .btn-danger:hover{
+    background-color:#CCCCCC;
+    color: var(--main-bg-color);
+    border: solid var(--main-bg-color) 1px;
+}
+
+.details{
+    background-image: url("../imgs/invitation-2508607__340.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 330px;
+    
+}
+
+.details .details-content{
+    padding: 150px ;
+}
+
+
+.details .details-content .details-content-item{
+    padding: 50px 100px;
+    border: solid white 2px;
+    font-size:30px;
+    line-height:45px;
+    font-weight: 500;
+    color: white;
+}
+
+.contacts{
+    margin-top: 100px;
+}
+
+.contacts .contacts-data h2{
+    color: #444444;
+    font-size:35px;
+    line-height:42px;
+    margin-bottom:20px ;
+    font-weight:700 ;
+}
+
+.contacts .contacts-data P{
+    color:#777777 ;
+    font-size:16px ;
+    line-height:24px ;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+
+.contacts .contacts-data .row .col-md-6 h3{
+    color: #444444;
+    font-size: 18px;
+    line-height:21.6px ;
+    font-weight: 900;
+}
+
+.contacts .contacts-data .row .col-md-6 p{
+    color: #777777;
+    font-size:16px ;
+    line-height: 26px;
+    margin-bottom: 16px;
+    font-weight: 400;
+}
+
+.contacts .contacts-data .row .col-md-6 p a{
+    text-decoration: none;
+    color: #777777;
+}
+
+.contacts .contacts-data .row .col-md-6 .media-links .media-link{
+    width: 40px;
+    height: 40px;
+    border: solid #777777 1px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777777;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.contacts .contacts-data .row .col-md-6 .media-links .media-link:hover{
+    background-color: #D62E33;
+    color: white;
+}
+
+
+
+
+
+
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: white;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+
+@media screen and (max-width:992px) {
+    .details{
+        height: auto;
+    }
+}
+
+
