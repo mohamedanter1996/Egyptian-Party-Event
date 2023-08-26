@@ -253,6 +253,10 @@ nav .nav-links a:hover{
   }
 
 @media screen and (max-width:992px) {
+
+    .details .details-content .details-content-item{
+        margin: auto;
+    }
     .details{
         height: auto;
     }
